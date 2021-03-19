@@ -1,2 +1,2 @@
 # rvescd
-A docker file
+Meta-analysis of single-case designs using robust variance estimation
