@@ -1,0 +1,34 @@
+
+# initial Dockerfile
+## Create a Docker account and download Docker hub
+## build Dockerfile (space and period)
+docker build -t manchen07/rvescd:v0 .
+
+## check your images;
+docker images
+
+## Check your packages 
+docker run -ti imageID
+
+## show all the packages in R
+sessionInfo()
+
+## test the job to see if the container works fine
+## go to the directory which has the .sh and .sub files
+docker run -it --rm -v %CD%:/scratch manchen07/rvescd:v1 /bin/bash
+cd scratch
+ls
+bash rvescd.sh 1
+
+## push container to Docker hub
+docker push manchen07/rvescd:v0
+
+
+# update v0 to v1
+## cd at rvescdv1 that has the updated Dockerfile
+docker images
+docker build -t manchen07/rvescd:v1 .
+docker push manchen07/rvescd:v1
+
+# to remove from docker image
+docker image rm -f imageID
