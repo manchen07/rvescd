@@ -13,13 +13,6 @@ docker run -ti imageID
 ## show all the packages in R
 sessionInfo()
 
-## test the job to see if the container works fine
-## go to the directory which has the .sh and .sub files
-docker run -it --rm -v %CD%:/scratch manchen07/rvescd:v1 /bin/bash
-cd scratch
-ls
-bash rvescd.sh 1
-
 ## push container to Docker hub
 docker push manchen07/rvescd:v0
 
@@ -29,6 +22,13 @@ docker push manchen07/rvescd:v0
 docker images
 docker build -t manchen07/rvescd:v1 .
 docker push manchen07/rvescd:v1
+
+## test the job to see if the container works fine
+## go to the directory which has the .sh and .sub files
+docker run -it --rm -v %CD%:/scratch manchen07/rvescd:v1 /bin/bash
+cd scratch
+ls
+bash rvescd.sh 1
 
 # to remove from docker image
 docker image rm -f imageID
