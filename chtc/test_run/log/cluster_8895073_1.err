@@ -1,0 +1,13 @@
+Loading required package: Matrix
+
+Attaching package: ‘Matrix’
+
+The following objects are masked from ‘package:tidyr’:
+
+    expand, pack, unpack
+
+Loading 'metafor' package (version 2.4-0). For an overview 
+and introduction to the package please type: help(metafor).
+Registered S3 method overwritten by 'clubSandwich':
+  method    from    
+  bread.mlm sandwich

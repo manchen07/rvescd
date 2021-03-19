@@ -1,0 +1,19 @@
+2
+[1] 937131899 937132546
+# A tibble: 648 x 13
+       K J_max  theta   tau omega mu_A_shape mu_A_scale m_mean n_mean   phi
+   <dbl> <dbl>  <dbl> <dbl> <dbl>      <dbl>      <dbl>  <dbl>  <dbl> <dbl>
+ 1    10     5 -0.8     0.1   0.1          2          7      7      7     0
+ 2    30     5 -0.8     0.1   0.1          2          7      7      7     0
+ 3    10     5 -0.6     0.1   0.1          2          7      7      7     0
+ 4    30     5 -0.6     0.1   0.1          2          7      7      7     0
+ 5    10     5 -0.4     0.1   0.1          2          7      7      7     0
+ 6    30     5 -0.4     0.1   0.1          2          7      7      7     0
+ 7    10     5 -0.200   0.1   0.1          2          7      7      7     0
+ 8    30     5 -0.200   0.1   0.1          2          7      7      7     0
+ 9    10     5  0       0.1   0.1          2          7      7      7     0
+10    30     5  0       0.1   0.1          2          7      7      7     0
+# … with 638 more rows, and 3 more variables: metric <chr>, iterations <int>,
+#   seed <dbl>
+     user    system   elapsed 
+10907.171     9.504 10932.793 

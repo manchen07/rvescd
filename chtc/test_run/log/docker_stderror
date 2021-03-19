@@ -1,0 +1,45 @@
+Unable to find image 'manchen07/rvescd:v1' locally
+v1: Pulling from manchen07/rvescd
+0ab9185ddfe5: Pulling fs layer
+178dc10865b3: Pulling fs layer
+839de4b57ed5: Pulling fs layer
+b87656369989: Pulling fs layer
+d4118019c1d2: Pulling fs layer
+42c3c02c715e: Pulling fs layer
+ed83373b9c40: Pulling fs layer
+5b6e9445a909: Pulling fs layer
+5b2009c6ef33: Pulling fs layer
+42c3c02c715e: Waiting
+ed83373b9c40: Waiting
+b87656369989: Waiting
+d4118019c1d2: Waiting
+5b2009c6ef33: Waiting
+5b6e9445a909: Waiting
+178dc10865b3: Verifying Checksum
+178dc10865b3: Download complete
+b87656369989: Verifying Checksum
+b87656369989: Download complete
+d4118019c1d2: Verifying Checksum
+d4118019c1d2: Download complete
+839de4b57ed5: Verifying Checksum
+839de4b57ed5: Download complete
+0ab9185ddfe5: Download complete
+5b6e9445a909: Verifying Checksum
+5b6e9445a909: Download complete
+5b2009c6ef33: Verifying Checksum
+5b2009c6ef33: Download complete
+ed83373b9c40: Verifying Checksum
+ed83373b9c40: Download complete
+42c3c02c715e: Verifying Checksum
+42c3c02c715e: Download complete
+0ab9185ddfe5: Pull complete
+178dc10865b3: Pull complete
+839de4b57ed5: Pull complete
+b87656369989: Pull complete
+d4118019c1d2: Pull complete
+42c3c02c715e: Pull complete
+ed83373b9c40: Pull complete
+5b6e9445a909: Pull complete
+5b2009c6ef33: Pull complete
+Digest: sha256:31e94b03f97e86f6691cd5436122cc21b101efa4f03c48c6aea450df5706c4f5
+Status: Downloaded newer image for manchen07/rvescd:v1
